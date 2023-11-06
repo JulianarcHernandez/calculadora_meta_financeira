@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora Financeira</title>
+</head>
+<body>
+    <h1>Calculadora de Meta Financeira com Economia Mensal</h1>
+    <form action="/calcular_juros_simples" method="post">
+        <label for="principal">Valor inicial:</label>
+        <input type="text" name="principal" required><br>
+        <label for="taxa_juros">Taxa de Juros (%):</label>
+        <input type="number" name="taxa_juros" required><br>
+        <label for="tempo">Tempo (meses):</label>
+        <input type="number" name="tempo" required><br>
+        <input type="submit" value="Calcular">
+    </form>
+    {% if resultado %}
+        <h2>{{ resultado }}</h2>
+    {% endif %}
+</body>
+</html>
