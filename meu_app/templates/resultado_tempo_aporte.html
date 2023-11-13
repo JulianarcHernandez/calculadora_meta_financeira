@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resultado do Cálculo de Tempo</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+</head>
+<body>
+    <h1>Resultado do Cálculo de Tempo</h1>
+    {% if tempo %}
+        <p>Tempo necessário para atingir o montante desejado: {{ tempo }} meses</p>
+    {% endif %}
+</body>
+</html>

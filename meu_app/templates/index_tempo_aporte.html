@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora de Tempo Necessário</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+</head>
+<body>
+    <h1>Calculadora de Investimentos</h1>
+    <form action="/calcular_tempo" method="post">
+        <label for="principal">Valor Inicial:</label>
+        <input type="text" name="principal" required><br>
+        <label for="taxa">Taxa de Juros Mensal (%):</label>
+        <input type="number" name="taxa" required><br>
+        <label for="aporte_mensal">Aporte Mensal:</label>
+        <input type="number" name="aporte_mensal" required><br>
+        <label for="montante_desejado">Montante Desejado:</label>
+        <input type="number" name="montante_desejado" required><br>
+        <input type="submit" value="Calcular">
+    </form>
+</body>
+</html>
