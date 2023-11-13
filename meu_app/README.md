@@ -1,0 +1,1 @@
+# O objetivo desta calculadora é facilitar o cálculo para investimentos financeiros. Foi colocada as opções de aporte inicial, aporte mensal, taxa de juros e o montante desejado para um objetivo (viagens, compras, investimentos). O resultado é o calculo de meses que iremos precisar para juntar o valor desejado, contando com a ajudinha dos juros composto :)
